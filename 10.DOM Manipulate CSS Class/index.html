@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+  
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+  <p id="myParagraph">Sample Paragraph</p>
+
+  <script>
+var button = document.getElementById('myButton');
+var paragraph = document.getElementById('myParagraph');
+
+button.addEventListener('click', function() {
+  paragraph.classList.add('highlight');
+});
+
+  </script>
+</body>
+</html>
